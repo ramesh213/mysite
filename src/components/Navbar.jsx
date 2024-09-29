@@ -21,30 +21,30 @@ const Navbar = () => {
       </div>
 
       {/* Navbar Links */}
-      <nav className={`lg:flex ${menuOpen ? "block" : "hidden"} absolute lg:static top-16 right-0 lg:top-0 lg:right-0 bg-gray-800 lg:bg-transparent w-full lg:w-auto p-8 lg:p-0`}>
+      <nav className={`lg:flex ${menuOpen ? "block" : "hidden"} absolute lg:static top-16 bg-slate-500 right-0 lg:top-0 lg:right-0 bg-gray-80 lg:bg-transparent w-full lg:w-auto p-8 lg:p-0`}>
         <ul className="flex flex-col lg:flex-row items-center lg:space-x-10 space-y-4 lg:space-y-0">
           <li>
-            <Link to="home" smooth={true} duration={500} className="text-lg menu-item text-gray-600  cursor-pointer">
+            <Link to="home" smooth={true} duration={500} className={`text-lg menu-item ${menuOpen ? "text-yellow-400" : "text-gray-600"}   cursor-pointer`}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="about" smooth={true} duration={500} className="text-lg menu-item text-gray-600  cursor-pointer">
+            <Link to="about" smooth={true} duration={500} className={`text-lg menu-item ${menuOpen ? "text-yellow-400" : "text-gray-600"}   cursor-pointer`}>
               About
             </Link>
           </li>
           <li>
-            <Link to="services" smooth={true} duration={500} className="text-lg menu-item text-gray-600  cursor-pointer">
+            <Link to="services" smooth={true} duration={500} className={`text-lg menu-item ${menuOpen ? "text-yellow-400" : "text-gray-600"}   cursor-pointer`}>
               Services
             </Link>
           </li>
           <li>
-            <Link to="portfolio" smooth={true} duration={500} className="text-lg menu-item text-gray-600 cursor-pointer">
+            <Link to="portfolio" smooth={true} duration={500} className={`text-lg menu-item ${menuOpen ? "text-yellow-400" : "text-gray-600"}   cursor-pointer`}>
               Projects
             </Link>
           </li>
           <li>
-            <Link to="contact" smooth={true} duration={500} className="text-lg menu-item text-gray-600  cursor-pointer">
+            <Link to="contact" smooth={true} duration={500} className={`text-lg menu-item ${menuOpen ? "text-yellow-400" : "text-gray-600"}   cursor-pointer`}>
               Contact Me
             </Link>
           </li>

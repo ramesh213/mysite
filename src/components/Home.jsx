@@ -17,7 +17,7 @@ const Home = () => {
         <h1 className="text-6xl font-bold mb-6 text-gray-700">Ramesh Tudu</h1>
         <h3 className="text-3xl font-bold mb-6">
           <div className="text-container flex gap-3">
-            <h1 className="max-sm:text-xl text-gray-800">I am a </h1>
+            <h1 className="max-md:text-xl text-gray-800">I am a </h1>
             <ReactTyped
               strings={[
                 "Frontend Developer...",
@@ -27,7 +27,7 @@ const Home = () => {
               typeSpeed={60}
               backSpeed={60}
               loop
-              className="text-red-600 max-sm:text-lg"
+              className="text-red-600 max-md:text-lg"
             />
           </div>
         </h3>

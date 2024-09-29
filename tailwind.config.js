@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        md: '840px', // Override md breakpoint to 840px
+      },
       fontFamily: {
         exo: ['"Exo 2"', 'sans-serif'],
       },
