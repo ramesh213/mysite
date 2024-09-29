@@ -1,6 +1,4 @@
 import React from "react";
-import { FaHtml5, FaCss3, FaReact } from "react-icons/fa";
-import { RiJavascriptFill } from "react-icons/ri";
 
 const ProgressLine = ({ percentage, IconComponent }) => {
   return (
