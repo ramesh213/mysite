@@ -67,7 +67,7 @@ const About = () => {
         </div>
 
         {/* Render selected component */}
-        <div className="h-[300px] max-md:h-[350px] bg-gray-600 mb-8">
+        <div className="min-h-[350px] max-md:h-auto  mb-8 max-md:pb-6">
           {renderComponent()}
         </div>
 
